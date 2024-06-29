@@ -6,7 +6,7 @@ def home():
     return render_template('index.html')
 @app.route("/home")
 def index():
-    return "index page"
+    return "Welcome to Geethanjali College of Engineering and TechnologyS"
 
 if __name__=="__main__":
     app.run(debug=True)
